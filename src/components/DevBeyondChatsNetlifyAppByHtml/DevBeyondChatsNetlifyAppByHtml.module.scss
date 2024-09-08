@@ -1,0 +1,2849 @@
+.root {
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff, #fff;
+  overflow-y: auto;
+}
+.container {
+  position: relative;
+  height: 64px;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  &__container2 {
+    position: absolute;
+    right: 0;
+    top: 64px;
+    width: 1856px;
+    height: 1293.47px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 0 0;
+    &__container3 {
+      width: 1200px;
+      height: min-content;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 120px;
+      &__margin {
+        width: min-content;
+        height: min-content;
+        flex-direction: column;
+        padding: 0 0 8px;
+        &__container4 {
+          width: max-content;
+          height: min-content;
+          align-self: flex-start;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+          align-content: center;
+          gap: 0 8px;
+          &__button {
+            width: min-content;
+            height: min-content;
+            justify-content: center;
+            align-items: center;
+            padding: 6px 16px 6px 12px;
+            border-radius: 4px;
+            background-color: #2872fa;
+            overflow: hidden;
+            box-shadow: 0px 1px 5px 0px #0000001f, 0px 2px 2px 0px #00000024, 0px 3px 1px -2px #0003;
+            &__margin2 {
+              width: min-content;
+              height: min-content;
+              flex-direction: column;
+              padding: 0 8px 0 0;
+              &__sVG {
+                width: 20px;
+                height: 20px;
+                overflow: visible;
+                &__icon {
+                  width: 100%;
+                  height: 100%;
+                }
+              }
+            }
+            &__container5 {
+              width: min-content;
+              height: min-content;
+              flex-direction: column;
+              &__addData {
+                color: #fff;
+                font-size: 16px;
+                line-height: 25.6px;
+                font-weight: 500;
+                font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+                  'Liberation Sans', sans-serif;
+                text-transform: uppercase;
+                width: min-content;
+                height: min-content;
+                text-align: center;
+                align-items: center;
+                white-space: nowrap;
+                flex-direction: column;
+              }
+            }
+          }
+          &__button2 {
+            width: min-content;
+            height: min-content;
+            justify-content: center;
+            align-items: center;
+            padding: 6px 16px 6px 12px;
+            border-radius: 4px;
+            background-color: #fa2871;
+            overflow: hidden;
+            box-shadow: 0px 1px 5px 0px #0000001f, 0px 2px 2px 0px #00000024, 0px 3px 1px -2px #0003;
+            &__margin3 {
+              width: min-content;
+              height: min-content;
+              flex-direction: column;
+              padding: 0 8px 0 0;
+              &__sVG2 {
+                width: 20px;
+                height: 20px;
+                overflow: visible;
+                &__icon2 {
+                  width: 100%;
+                  height: 100%;
+                }
+              }
+            }
+            &__container6 {
+              width: min-content;
+              height: min-content;
+              flex-direction: column;
+              &__dataTrainingStatus {
+                color: #fff;
+                font-size: 16px;
+                line-height: 25.6px;
+                font-weight: 500;
+                font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+                  'Liberation Sans', sans-serif;
+                text-transform: uppercase;
+                width: min-content;
+                height: min-content;
+                text-align: center;
+                align-items: center;
+                white-space: nowrap;
+                flex-direction: column;
+              }
+            }
+          }
+          &__button3 {
+            width: min-content;
+            height: min-content;
+            justify-content: center;
+            align-items: center;
+            padding: 6px 16px 6px 12px;
+            outline: solid 1px #fa287180;
+            outline-offset: -1px;
+            border-radius: 4px;
+            &__margin4 {
+              z-index: 0;
+              width: min-content;
+              height: min-content;
+              flex-direction: column;
+              padding: 0 8px 0 0;
+              &__sVG3 {
+                width: 20px;
+                height: 20px;
+                overflow: visible;
+                &__icon3 {
+                  width: 100%;
+                  height: 100%;
+                }
+              }
+            }
+            &__container7 {
+              z-index: 0;
+              width: min-content;
+              height: min-content;
+              flex-direction: column;
+              &__groundTruths {
+                color: #fa2871;
+                font-size: 16px;
+                line-height: 25.6px;
+                font-weight: 500;
+                font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+                  'Liberation Sans', sans-serif;
+                text-transform: uppercase;
+                width: min-content;
+                height: min-content;
+                text-align: center;
+                align-items: center;
+                white-space: nowrap;
+                flex-direction: column;
+              }
+            }
+          }
+        }
+      }
+      &__separatorMargin {
+        height: min-content;
+        align-self: stretch;
+        flex-direction: column;
+        padding: 10px 0;
+        &__separator {
+          position: relative;
+          height: 2px;
+          align-self: stretch;
+          flex-direction: column;
+          outline: solid 1px #808080;
+          outline-offset: -1px;
+          overflow: hidden;
+        }
+      }
+      &__form {
+        width: max-content;
+        height: min-content;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        align-content: flex-start;
+        &__margin5 {
+          width: min-content;
+          align-self: stretch;
+          flex-direction: column;
+          justify-content: center;
+          padding: 8px 0 0;
+          &__container8 {
+            position: relative;
+            width: min-content;
+            height: 50.88px;
+            align-self: flex-start;
+            flex-direction: column;
+            align-items: flex-start;
+            &__container9 {
+              position: relative;
+              width: 376px;
+              height: 42.88px;
+              flex-direction: column;
+              align-items: flex-start;
+              border-radius: 4px;
+              &__fieldset {
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: -5px;
+                bottom: 0;
+                flex-direction: column;
+                align-items: flex-start;
+                border-radius: 4px;
+                overflow: hidden;
+                &__fieldsetStyles {
+                  position: absolute;
+                  left: 0;
+                  right: 0;
+                  top: 5px;
+                  bottom: 0;
+                  outline: solid 1px #0000003b;
+                  outline-offset: -1px;
+                  border-radius: 4px;
+                }
+              }
+            }
+            &__label {
+              position: absolute;
+              left: 14px;
+              top: 9px;
+              width: 63.06px;
+              height: min-content;
+              flex-direction: column;
+              align-items: flex-start;
+              overflow: hidden;
+              &__search {
+                color: #0009;
+                font-size: 18px;
+                line-height: 25.88px;
+                font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+                  'Liberation Sans', sans-serif;
+                width: min-content;
+                height: min-content;
+                white-space: nowrap;
+                flex-direction: column;
+              }
+            }
+          }
+        }
+        &__margin6 {
+          width: min-content;
+          align-self: stretch;
+          flex-direction: column;
+          justify-content: center;
+          padding: 8px;
+          &__container10 {
+            position: relative;
+            width: min-content;
+            height: 42.88px;
+            align-self: flex-start;
+            flex-direction: column;
+            align-items: flex-start;
+            &__container11 {
+              position: relative;
+              height: min-content;
+              align-self: stretch;
+              align-items: center;
+              border-radius: 4px;
+              &__comboboxListbox {
+                position: relative;
+                height: min-content;
+                flex: 1;
+                flex-direction: column;
+                padding: 8.5px 32px 8.5px 14px;
+                border-radius: 4px;
+                overflow: hidden;
+                &___3 {
+                  color: #000000de;
+                  font-size: 18px;
+                  line-height: 25.88px;
+                  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                    'Noto Sans', 'Liberation Sans', sans-serif;
+                  height: min-content;
+                  align-self: stretch;
+                  flex-direction: column;
+                }
+              }
+              &__sVG4 {
+                position: absolute;
+                right: 7px;
+                top: 9.44px;
+                width: 24px;
+                height: 24px;
+                overflow: visible;
+                &__icon4 {
+                  width: 100%;
+                  height: 100%;
+                }
+              }
+              &__fieldset2 {
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: -5px;
+                bottom: 0;
+                width: 120px;
+                height: 48px;
+                flex-direction: column;
+                align-items: flex-start;
+                border-radius: 4px;
+                overflow: hidden;
+                &__fieldsetStyles2 {
+                  position: absolute;
+                  left: 0;
+                  right: 0;
+                  top: 5px;
+                  bottom: 0.12px;
+                  outline: solid 1px #0000003b;
+                  outline-offset: -1px;
+                  border-radius: 4px;
+                }
+              }
+            }
+            &__label2 {
+              position: absolute;
+              left: 14px;
+              top: -9px;
+              width: 47.55px;
+              height: 19.41px;
+              flex-direction: column;
+              align-items: flex-start;
+              overflow: hidden;
+              &__results {
+                color: #0009;
+                font-size: 13.5px;
+                line-height: 25.88px;
+                font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+                  'Liberation Sans', sans-serif;
+                position: absolute;
+                left: 0;
+                top: -3.565px;
+                width: 47.9055px;
+                height: 25.88px;
+                justify-content: center;
+                flex-direction: column;
+              }
+            }
+          }
+        }
+        &__buttonMargin {
+          width: min-content;
+          height: min-content;
+          flex-direction: column;
+          padding: 8px;
+          &__button4 {
+            width: min-content;
+            height: min-content;
+            align-self: flex-start;
+            padding: 8.94px 16px 9.44px;
+            border-radius: 4px;
+            background-color: #2872fa;
+            overflow: hidden;
+            box-shadow: 0px 1px 5px 0px #0000001f, 0px 2px 2px 0px #00000024, 0px 3px 1px -2px #0003;
+            &__search2 {
+              color: #fff;
+              font-size: 14px;
+              line-height: 24.5px;
+              font-weight: 500;
+              font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+                'Liberation Sans', sans-serif;
+              text-transform: uppercase;
+              width: min-content;
+              height: min-content;
+              text-align: center;
+              align-items: center;
+              white-space: nowrap;
+              flex-direction: column;
+            }
+          }
+        }
+      }
+    }
+    &__container12 {
+      flex: 1;
+      align-self: stretch;
+      flex-direction: column;
+      gap: 8px;
+      padding: 10px;
+      border-radius: 8px;
+      &__grid {
+        height: min-content;
+        align-self: stretch;
+        flex-direction: column;
+        padding: 1px;
+        outline: solid 1px #e0e0e0;
+        outline-offset: -1px;
+        border-radius: 4px;
+        &__container13 {
+          z-index: 0;
+          flex: 1;
+          align-self: stretch;
+          flex-direction: column;
+          gap: 0px;
+          overflow: hidden;
+          &__horizontalBorder {
+            height: min-content;
+            align-self: stretch;
+            padding: 0 0 1px;
+            border-radius: 4px 4px 0 0;
+            overflow: hidden;
+            box-shadow: inset 0px -1px 0px #e0e0e0;
+            &__rowgroup {
+              width: min-content;
+              height: min-content;
+              align-self: flex-start;
+              flex-direction: column;
+              &__row {
+                width: min-content;
+                height: min-content;
+                align-self: flex-start;
+                align-items: flex-start;
+                &__columnheaderData {
+                  width: 1434px;
+                  height: 56px;
+                  align-items: center;
+                  padding: 0 0 0 10px;
+                  &__container14 {
+                    height: 56px;
+                    flex: 1;
+                    &__container15 {
+                      flex: 1;
+                      align-self: stretch;
+                      align-items: center;
+                      overflow: hidden;
+                      &__container16 {
+                        width: min-content;
+                        height: min-content;
+                        flex-direction: column;
+                        overflow: hidden;
+                        &__data {
+                          color: #000000de;
+                          font-size: 16px;
+                          line-height: 56px;
+                          font-weight: 500;
+                          font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                            'Noto Sans', 'Liberation Sans', sans-serif;
+                          width: min-content;
+                          height: min-content;
+                          white-space: nowrap;
+                          flex-direction: column;
+                        }
+                      }
+                    }
+                  }
+                }
+                &__columnheaderSource {
+                  width: 100px;
+                  height: 56px;
+                  align-items: center;
+                  padding: 0 4px 0 10px;
+                  &__container17 {
+                    height: 56px;
+                    flex: 1;
+                    &__container18 {
+                      flex: 1;
+                      align-self: stretch;
+                      justify-content: center;
+                      align-items: center;
+                      padding: 0 15.06px;
+                      overflow: hidden;
+                      &__container19 {
+                        width: min-content;
+                        height: min-content;
+                        overflow: hidden;
+                        &__container20 {
+                          width: min-content;
+                          height: min-content;
+                          align-self: flex-start;
+                          flex-direction: column;
+                          overflow: hidden;
+                          &__source {
+                            color: #000000de;
+                            font-size: 16px;
+                            line-height: 56px;
+                            font-weight: 500;
+                            font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                              'Noto Sans', 'Liberation Sans', sans-serif;
+                            width: min-content;
+                            height: min-content;
+                            white-space: nowrap;
+                            flex-direction: column;
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                &__columnheaderType {
+                  width: 100px;
+                  height: 56px;
+                  align-items: center;
+                  padding: 0 4px 0 10px;
+                  &__container21 {
+                    height: 56px;
+                    flex: 1;
+                    &__container22 {
+                      flex: 1;
+                      align-self: stretch;
+                      justify-content: center;
+                      align-items: center;
+                      padding: 0 23.47px;
+                      overflow: hidden;
+                      &__container23 {
+                        width: min-content;
+                        height: min-content;
+                        overflow: hidden;
+                        &__container24 {
+                          width: min-content;
+                          height: min-content;
+                          align-self: flex-start;
+                          flex-direction: column;
+                          overflow: hidden;
+                          &__type {
+                            color: #000000de;
+                            font-size: 16px;
+                            line-height: 56px;
+                            font-weight: 500;
+                            font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                              'Noto Sans', 'Liberation Sans', sans-serif;
+                            width: min-content;
+                            height: min-content;
+                            white-space: nowrap;
+                            flex-direction: column;
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                &__columnheaderCreatedAt {
+                  width: 100px;
+                  height: 56px;
+                  align-items: center;
+                  padding: 0 4px 0 10px;
+                  &__container25 {
+                    height: 56px;
+                    flex: 1;
+                    &__container26 {
+                      flex: 1;
+                      align-self: stretch;
+                      justify-content: center;
+                      align-items: center;
+                      overflow: hidden;
+                      &__container27 {
+                        width: min-content;
+                        height: min-content;
+                        overflow: hidden;
+                        &__container28 {
+                          width: min-content;
+                          height: min-content;
+                          align-self: flex-start;
+                          flex-direction: column;
+                          padding: 0 5.7px 0 0;
+                          overflow: hidden;
+                          &__created {
+                            color: #000000de;
+                            font-size: 16px;
+                            line-height: 56px;
+                            font-weight: 500;
+                            font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                              'Noto Sans', 'Liberation Sans', sans-serif;
+                            width: min-content;
+                            height: min-content;
+                            white-space: nowrap;
+                            flex-direction: column;
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                &__columnheaderActions {
+                  width: 100px;
+                  height: 56px;
+                  align-items: center;
+                  padding: 0 4px 0 10px;
+                  &__container29 {
+                    height: 56px;
+                    flex: 1;
+                    &__container30 {
+                      flex: 1;
+                      align-self: stretch;
+                      justify-content: center;
+                      align-items: center;
+                      padding: 0 12.97px 0 12.95px;
+                      overflow: hidden;
+                      &__container31 {
+                        width: min-content;
+                        height: min-content;
+                        overflow: hidden;
+                        &__container32 {
+                          width: min-content;
+                          height: min-content;
+                          align-self: flex-start;
+                          flex-direction: column;
+                          overflow: hidden;
+                          &__actions {
+                            color: #000000de;
+                            font-size: 16px;
+                            line-height: 56px;
+                            font-weight: 500;
+                            font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                              'Noto Sans', 'Liberation Sans', sans-serif;
+                            width: min-content;
+                            height: min-content;
+                            white-space: nowrap;
+                            flex-direction: column;
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          &__container33 {
+            position: relative;
+            flex: 1;
+            align-self: stretch;
+            flex-direction: column;
+            align-items: flex-start;
+            overflow-x: auto;
+            overflow-y: hidden;
+            &__rowgroup2 {
+              position: absolute;
+              left: 0;
+              top: 0;
+              width: 1834px;
+              height: min-content;
+              flex-direction: column;
+              align-items: flex-start;
+              &__row2 {
+                width: min-content;
+                height: min-content;
+                &__cell {
+                  width: min-content;
+                  align-self: stretch;
+                  align-items: center;
+                  padding: 0 846.83px 1px 10px;
+                  box-shadow: inset 0px -1px 0px #e0e0e0;
+                  &__container34 {
+                    width: min-content;
+                    height: min-content;
+                    flex-direction: column;
+                    padding: 15.06px 8px 16px;
+                    &__container35 {
+                      height: min-content;
+                      align-self: stretch;
+                      flex-direction: column;
+                      align-items: flex-start;
+                      padding: 0 0 0.94px;
+                      &__doYouWorkOnWhatsappYesWeDoOffe {
+                        color: #000000de;
+                        font-size: 16px;
+                        line-height: 22.88px;
+                        font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                          'Noto Sans', 'Liberation Sans', sans-serif;
+                        width: min-content;
+                        height: min-content;
+                        white-space: nowrap;
+                        flex-direction: column;
+                      }
+                    }
+                  }
+                }
+                &__cell2 {
+                  width: min-content;
+                  align-self: stretch;
+                  align-items: center;
+                  padding: 17.62px 42.69px 18.63px 42.67px;
+                  box-shadow: inset 0px -1px 0px #e0e0e0;
+                  &__heading6 {
+                    width: min-content;
+                    height: min-content;
+                    flex-direction: column;
+                    &__unnamed {
+                      color: #000000de;
+                      font-size: 12.5px;
+                      line-height: 19.63px;
+                      font-weight: 500;
+                      font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                        'Noto Sans', 'Liberation Sans', sans-serif;
+                      width: min-content;
+                      height: min-content;
+                      white-space: nowrap;
+                      flex-direction: column;
+                    }
+                  }
+                }
+                &__cell3 {
+                  width: min-content;
+                  align-self: stretch;
+                  align-items: center;
+                  padding: 15.44px 27.6px 16.44px 27.59px;
+                  box-shadow: inset 0px -1px 0px #e0e0e0;
+                  &__border {
+                    width: min-content;
+                    height: 24px;
+                    align-items: center;
+                    padding: 2.7px 1px 2.72px;
+                    outline: solid 1px #2872fab2;
+                    outline-offset: -1px;
+                    border-radius: 16px;
+                    &__container36 {
+                      z-index: 0;
+                      position: relative;
+                      width: 42.81px;
+                      height: 18.58px;
+                      flex-direction: column;
+                      align-items: flex-start;
+                      overflow: hidden;
+                      &__tEXT {
+                        color: #2872fa;
+                        font-size: 13px;
+                        line-height: 18.59px;
+                        font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                          'Noto Sans', 'Liberation Sans', sans-serif;
+                        position: absolute;
+                        left: 7px;
+                        top: -0.795px;
+                        width: 29.1838px;
+                        height: 18.59px;
+                        justify-content: center;
+                        flex-direction: column;
+                      }
+                    }
+                  }
+                }
+                &__cell4 {
+                  width: min-content;
+                  align-self: stretch;
+                  align-items: center;
+                  padding: 17.62px 20.61px 18.63px;
+                  box-shadow: inset 0px -1px 0px #e0e0e0;
+                  &__heading62 {
+                    width: min-content;
+                    height: min-content;
+                    flex-direction: column;
+                    &___832024 {
+                      color: #000000de;
+                      font-size: 12.5px;
+                      line-height: 19.63px;
+                      font-weight: 500;
+                      font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                        'Noto Sans', 'Liberation Sans', sans-serif;
+                      width: min-content;
+                      height: min-content;
+                      white-space: nowrap;
+                      flex-direction: column;
+                    }
+                  }
+                }
+                &__cell5 {
+                  width: min-content;
+                  align-self: stretch;
+                  justify-content: center;
+                  align-items: center;
+                  padding: 7.44px 10px 8.44px;
+                  box-shadow: inset 0px -1px 0px #e0e0e0;
+                  &__button5 {
+                    width: min-content;
+                    height: min-content;
+                    padding: 8px;
+                    border-radius: 20px;
+                    &__sVG5 {
+                      width: 24px;
+                      height: 24px;
+                      overflow: visible;
+                      &__icon5 {
+                        width: 100%;
+                        height: 100%;
+                      }
+                    }
+                  }
+                  &__button6 {
+                    width: min-content;
+                    height: min-content;
+                    padding: 8px;
+                    border-radius: 20px;
+                    &__sVG6 {
+                      width: 24px;
+                      height: 24px;
+                      overflow: visible;
+                      &__icon6 {
+                        width: 100%;
+                        height: 100%;
+                      }
+                    }
+                  }
+                }
+              }
+              &__row3 {
+                width: min-content;
+                height: min-content;
+                &__cell6 {
+                  width: min-content;
+                  align-self: stretch;
+                  align-items: center;
+                  padding: 0 10px 1px;
+                  box-shadow: inset 0px -1px 0px #e0e0e0;
+                  &__container37 {
+                    width: min-content;
+                    height: min-content;
+                    flex-direction: column;
+                    padding: 15.06px 8px 16px;
+                    &__container38 {
+                      height: min-content;
+                      align-self: stretch;
+                      flex-direction: column;
+                      align-items: flex-start;
+                      padding: 0 0 0.93px;
+                      &__iWantToTestYourChatbotThatSGre {
+                        width: min-content;
+                        height: min-content;
+                        white-space: nowrap;
+                        flex-direction: column;
+                        &__textBlock {
+                          color: #000000de;
+                          font-size: 16px;
+                          line-height: 22.88px;
+                          font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                            'Noto Sans', 'Liberation Sans', sans-serif;
+                        }
+                        &__textBlock2 {
+                          margin-top: 0;
+                          color: #000000de;
+                          font-size: 16px;
+                          line-height: 22.88px;
+                          font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                            'Noto Sans', 'Liberation Sans', sans-serif;
+                        }
+                      }
+                    }
+                  }
+                }
+                &__cell7 {
+                  width: min-content;
+                  align-self: stretch;
+                  align-items: center;
+                  padding: 29.07px 42.69px 30.05px 42.67px;
+                  box-shadow: inset 0px -1px 0px #e0e0e0;
+                  &__heading63 {
+                    width: min-content;
+                    height: min-content;
+                    flex-direction: column;
+                    &__unnamed2 {
+                      color: #000000de;
+                      font-size: 12.5px;
+                      line-height: 19.63px;
+                      font-weight: 500;
+                      font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                        'Noto Sans', 'Liberation Sans', sans-serif;
+                      width: min-content;
+                      height: min-content;
+                      white-space: nowrap;
+                      flex-direction: column;
+                    }
+                  }
+                }
+                &__cell8 {
+                  width: min-content;
+                  align-self: stretch;
+                  align-items: center;
+                  padding: 26.88px 27.6px 27.87px 27.59px;
+                  box-shadow: inset 0px -1px 0px #e0e0e0;
+                  &__border2 {
+                    width: min-content;
+                    height: 24px;
+                    align-items: center;
+                    padding: 2.7px 1px 2.72px;
+                    outline: solid 1px #2872fab2;
+                    outline-offset: -1px;
+                    border-radius: 16px;
+                    &__container39 {
+                      z-index: 0;
+                      position: relative;
+                      width: 42.81px;
+                      height: 18.58px;
+                      flex-direction: column;
+                      align-items: flex-start;
+                      overflow: hidden;
+                      &__tEXT2 {
+                        color: #2872fa;
+                        font-size: 13px;
+                        line-height: 18.59px;
+                        font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                          'Noto Sans', 'Liberation Sans', sans-serif;
+                        position: absolute;
+                        left: 7px;
+                        top: -0.795px;
+                        width: 29.1838px;
+                        height: 18.59px;
+                        justify-content: center;
+                        flex-direction: column;
+                      }
+                    }
+                  }
+                }
+                &__cell9 {
+                  width: min-content;
+                  align-self: stretch;
+                  align-items: center;
+                  padding: 29.07px 17px 30.05px;
+                  box-shadow: inset 0px -1px 0px #e0e0e0;
+                  &__heading64 {
+                    width: min-content;
+                    height: min-content;
+                    flex-direction: column;
+                    &___3282024 {
+                      color: #000000de;
+                      font-size: 12.5px;
+                      line-height: 19.63px;
+                      font-weight: 500;
+                      font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                        'Noto Sans', 'Liberation Sans', sans-serif;
+                      width: min-content;
+                      height: min-content;
+                      white-space: nowrap;
+                      flex-direction: column;
+                    }
+                  }
+                }
+                &__cell10 {
+                  width: min-content;
+                  align-self: stretch;
+                  justify-content: center;
+                  align-items: center;
+                  padding: 18.88px 10px 19.87px;
+                  box-shadow: inset 0px -1px 0px #e0e0e0;
+                  &__button7 {
+                    width: min-content;
+                    height: min-content;
+                    padding: 8px;
+                    border-radius: 20px;
+                    &__sVG7 {
+                      width: 24px;
+                      height: 24px;
+                      overflow: visible;
+                      &__icon7 {
+                        width: 100%;
+                        height: 100%;
+                      }
+                    }
+                  }
+                  &__button8 {
+                    width: min-content;
+                    height: min-content;
+                    padding: 8px;
+                    border-radius: 20px;
+                    &__sVG8 {
+                      width: 24px;
+                      height: 24px;
+                      overflow: visible;
+                      &__icon8 {
+                        width: 100%;
+                        height: 100%;
+                      }
+                    }
+                  }
+                }
+              }
+              &__row4 {
+                width: min-content;
+                height: min-content;
+                &__cell11 {
+                  width: min-content;
+                  align-self: stretch;
+                  align-items: center;
+                  padding: 0 10px 1px;
+                  box-shadow: inset 0px -1px 0px #e0e0e0;
+                  &__container40 {
+                    width: min-content;
+                    height: min-content;
+                    flex-direction: column;
+                    padding: 15.06px 8px 16px;
+                    &__container41 {
+                      height: min-content;
+                      align-self: stretch;
+                      flex-direction: column;
+                      align-items: flex-start;
+                      padding: 0 0 0.93px;
+                      &__willTheStartupPlanAddressTheCo {
+                        width: min-content;
+                        height: min-content;
+                        white-space: nowrap;
+                        flex-direction: column;
+                        &__textBlock3 {
+                          color: #000000de;
+                          font-size: 16px;
+                          line-height: 22.88px;
+                          font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                            'Noto Sans', 'Liberation Sans', sans-serif;
+                        }
+                        &__textBlock4 {
+                          margin-top: 0;
+                          color: #000000de;
+                          font-size: 16px;
+                          line-height: 22.88px;
+                          font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                            'Noto Sans', 'Liberation Sans', sans-serif;
+                        }
+                      }
+                    }
+                  }
+                }
+                &__cell12 {
+                  width: min-content;
+                  align-self: stretch;
+                  align-items: center;
+                  padding: 29.07px 42.69px 30.05px 42.67px;
+                  box-shadow: inset 0px -1px 0px #e0e0e0;
+                  &__heading65 {
+                    width: min-content;
+                    height: min-content;
+                    flex-direction: column;
+                    &__unnamed3 {
+                      color: #000000de;
+                      font-size: 12.5px;
+                      line-height: 19.63px;
+                      font-weight: 500;
+                      font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                        'Noto Sans', 'Liberation Sans', sans-serif;
+                      width: min-content;
+                      height: min-content;
+                      white-space: nowrap;
+                      flex-direction: column;
+                    }
+                  }
+                }
+                &__cell13 {
+                  width: min-content;
+                  align-self: stretch;
+                  align-items: center;
+                  padding: 26.88px 27.6px 27.87px 27.59px;
+                  box-shadow: inset 0px -1px 0px #e0e0e0;
+                  &__border3 {
+                    width: min-content;
+                    height: 24px;
+                    align-items: center;
+                    padding: 2.7px 1px 2.72px;
+                    outline: solid 1px #2872fab2;
+                    outline-offset: -1px;
+                    border-radius: 16px;
+                    &__container42 {
+                      z-index: 0;
+                      position: relative;
+                      width: 42.81px;
+                      height: 18.58px;
+                      flex-direction: column;
+                      align-items: flex-start;
+                      overflow: hidden;
+                      &__tEXT3 {
+                        color: #2872fa;
+                        font-size: 13px;
+                        line-height: 18.59px;
+                        font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                          'Noto Sans', 'Liberation Sans', sans-serif;
+                        position: absolute;
+                        left: 7px;
+                        top: -0.795px;
+                        width: 29.1838px;
+                        height: 18.59px;
+                        justify-content: center;
+                        flex-direction: column;
+                      }
+                    }
+                  }
+                }
+                &__cell14 {
+                  width: min-content;
+                  align-self: stretch;
+                  align-items: center;
+                  padding: 29.07px 18.9px 30.05px 18.91px;
+                  box-shadow: inset 0px -1px 0px #e0e0e0;
+                  &__heading66 {
+                    width: min-content;
+                    height: min-content;
+                    flex-direction: column;
+                    &___7312024 {
+                      color: #000000de;
+                      font-size: 12.5px;
+                      line-height: 19.63px;
+                      font-weight: 500;
+                      font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                        'Noto Sans', 'Liberation Sans', sans-serif;
+                      width: min-content;
+                      height: min-content;
+                      white-space: nowrap;
+                      flex-direction: column;
+                    }
+                  }
+                }
+                &__cell15 {
+                  width: min-content;
+                  align-self: stretch;
+                  justify-content: center;
+                  align-items: center;
+                  padding: 18.88px 10px 19.87px;
+                  box-shadow: inset 0px -1px 0px #e0e0e0;
+                  &__button9 {
+                    width: min-content;
+                    height: min-content;
+                    padding: 8px;
+                    border-radius: 20px;
+                    &__sVG9 {
+                      width: 24px;
+                      height: 24px;
+                      overflow: visible;
+                      &__icon9 {
+                        width: 100%;
+                        height: 100%;
+                      }
+                    }
+                  }
+                  &__button10 {
+                    width: min-content;
+                    height: min-content;
+                    padding: 8px;
+                    border-radius: 20px;
+                    &__sVG10 {
+                      width: 24px;
+                      height: 24px;
+                      overflow: visible;
+                      &__icon10 {
+                        width: 100%;
+                        height: 100%;
+                      }
+                    }
+                  }
+                }
+              }
+              &__row5 {
+                width: min-content;
+                height: min-content;
+                &__cell16 {
+                  width: min-content;
+                  align-self: stretch;
+                  align-items: center;
+                  padding: 0 10px 1px;
+                  box-shadow: inset 0px -1px 0px #e0e0e0;
+                  &__container43 {
+                    width: min-content;
+                    height: min-content;
+                    flex-direction: column;
+                    padding: 15.06px 8px 16px;
+                    &__container44 {
+                      height: min-content;
+                      align-self: stretch;
+                      flex-direction: column;
+                      align-items: flex-start;
+                      padding: 0 0 0.93px;
+                      &__whatIsTheCostOfIVFICanTProvide {
+                        width: min-content;
+                        height: min-content;
+                        white-space: nowrap;
+                        flex-direction: column;
+                        &__textBlock5 {
+                          color: #000000de;
+                          font-size: 16px;
+                          line-height: 22.88px;
+                          font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                            'Noto Sans', 'Liberation Sans', sans-serif;
+                        }
+                        &__textBlock6 {
+                          margin-top: 0;
+                          color: #000000de;
+                          font-size: 16px;
+                          line-height: 22.88px;
+                          font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                            'Noto Sans', 'Liberation Sans', sans-serif;
+                        }
+                      }
+                    }
+                  }
+                }
+                &__cell17 {
+                  width: min-content;
+                  align-self: stretch;
+                  align-items: center;
+                  padding: 29.07px 42.69px 30.05px 42.67px;
+                  box-shadow: inset 0px -1px 0px #e0e0e0;
+                  &__heading67 {
+                    width: min-content;
+                    height: min-content;
+                    flex-direction: column;
+                    &__unnamed4 {
+                      color: #000000de;
+                      font-size: 12.5px;
+                      line-height: 19.63px;
+                      font-weight: 500;
+                      font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                        'Noto Sans', 'Liberation Sans', sans-serif;
+                      width: min-content;
+                      height: min-content;
+                      white-space: nowrap;
+                      flex-direction: column;
+                    }
+                  }
+                }
+                &__cell18 {
+                  width: min-content;
+                  align-self: stretch;
+                  align-items: center;
+                  padding: 26.88px 27.6px 27.87px 27.59px;
+                  box-shadow: inset 0px -1px 0px #e0e0e0;
+                  &__border4 {
+                    width: min-content;
+                    height: 24px;
+                    align-items: center;
+                    padding: 2.7px 1px 2.72px;
+                    outline: solid 1px #2872fab2;
+                    outline-offset: -1px;
+                    border-radius: 16px;
+                    &__container45 {
+                      z-index: 0;
+                      position: relative;
+                      width: 42.81px;
+                      height: 18.58px;
+                      flex-direction: column;
+                      align-items: flex-start;
+                      overflow: hidden;
+                      &__tEXT4 {
+                        color: #2872fa;
+                        font-size: 13px;
+                        line-height: 18.59px;
+                        font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                          'Noto Sans', 'Liberation Sans', sans-serif;
+                        position: absolute;
+                        left: 7px;
+                        top: -0.795px;
+                        width: 29.1838px;
+                        height: 18.59px;
+                        justify-content: center;
+                        flex-direction: column;
+                      }
+                    }
+                  }
+                }
+                &__cell19 {
+                  width: min-content;
+                  align-self: stretch;
+                  align-items: center;
+                  padding: 29.07px 18.9px 30.05px 18.91px;
+                  box-shadow: inset 0px -1px 0px #e0e0e0;
+                  &__heading68 {
+                    width: min-content;
+                    height: min-content;
+                    flex-direction: column;
+                    &___73120242 {
+                      color: #000000de;
+                      font-size: 12.5px;
+                      line-height: 19.63px;
+                      font-weight: 500;
+                      font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                        'Noto Sans', 'Liberation Sans', sans-serif;
+                      width: min-content;
+                      height: min-content;
+                      white-space: nowrap;
+                      flex-direction: column;
+                    }
+                  }
+                }
+                &__cell20 {
+                  width: min-content;
+                  align-self: stretch;
+                  justify-content: center;
+                  align-items: center;
+                  padding: 18.88px 10px 19.87px;
+                  box-shadow: inset 0px -1px 0px #e0e0e0;
+                  &__button11 {
+                    width: min-content;
+                    height: min-content;
+                    padding: 8px;
+                    border-radius: 20px;
+                    &__sVG11 {
+                      width: 24px;
+                      height: 24px;
+                      overflow: visible;
+                      &__icon11 {
+                        width: 100%;
+                        height: 100%;
+                      }
+                    }
+                  }
+                  &__button12 {
+                    width: min-content;
+                    height: min-content;
+                    padding: 8px;
+                    border-radius: 20px;
+                    &__sVG12 {
+                      width: 24px;
+                      height: 24px;
+                      overflow: visible;
+                      &__icon12 {
+                        width: 100%;
+                        height: 100%;
+                      }
+                    }
+                  }
+                }
+              }
+              &__row6 {
+                width: min-content;
+                height: min-content;
+                &__cell21 {
+                  width: min-content;
+                  align-self: stretch;
+                  align-items: center;
+                  padding: 0 10px 1px;
+                  box-shadow: inset 0px -1px 0px #e0e0e0;
+                  &__container46 {
+                    width: min-content;
+                    height: min-content;
+                    flex-direction: column;
+                    padding: 15.06px 8px 16px;
+                    &__container47 {
+                      height: min-content;
+                      align-self: stretch;
+                      flex-direction: column;
+                      align-items: flex-start;
+                      padding: 0 0 0.93px;
+                      &__willTheStartupPlanAddressTheCo2 {
+                        width: min-content;
+                        height: min-content;
+                        white-space: nowrap;
+                        flex-direction: column;
+                        &__textBlock7 {
+                          color: #000000de;
+                          font-size: 16px;
+                          line-height: 22.88px;
+                          font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                            'Noto Sans', 'Liberation Sans', sans-serif;
+                        }
+                        &__textBlock8 {
+                          margin-top: 0;
+                          color: #000000de;
+                          font-size: 16px;
+                          line-height: 22.88px;
+                          font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                            'Noto Sans', 'Liberation Sans', sans-serif;
+                        }
+                      }
+                    }
+                  }
+                }
+                &__cell22 {
+                  width: min-content;
+                  align-self: stretch;
+                  align-items: center;
+                  padding: 29.07px 42.69px 30.05px 42.67px;
+                  box-shadow: inset 0px -1px 0px #e0e0e0;
+                  &__heading69 {
+                    width: min-content;
+                    height: min-content;
+                    flex-direction: column;
+                    &__unnamed5 {
+                      color: #000000de;
+                      font-size: 12.5px;
+                      line-height: 19.63px;
+                      font-weight: 500;
+                      font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                        'Noto Sans', 'Liberation Sans', sans-serif;
+                      width: min-content;
+                      height: min-content;
+                      white-space: nowrap;
+                      flex-direction: column;
+                    }
+                  }
+                }
+                &__cell23 {
+                  width: min-content;
+                  align-self: stretch;
+                  align-items: center;
+                  padding: 26.88px 27.6px 27.87px 27.59px;
+                  box-shadow: inset 0px -1px 0px #e0e0e0;
+                  &__border5 {
+                    width: min-content;
+                    height: 24px;
+                    align-items: center;
+                    padding: 2.7px 1px 2.72px;
+                    outline: solid 1px #2872fab2;
+                    outline-offset: -1px;
+                    border-radius: 16px;
+                    &__container48 {
+                      z-index: 0;
+                      position: relative;
+                      width: 42.81px;
+                      height: 18.58px;
+                      flex-direction: column;
+                      align-items: flex-start;
+                      overflow: hidden;
+                      &__tEXT5 {
+                        color: #2872fa;
+                        font-size: 13px;
+                        line-height: 18.59px;
+                        font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                          'Noto Sans', 'Liberation Sans', sans-serif;
+                        position: absolute;
+                        left: 7px;
+                        top: -0.795px;
+                        width: 29.1838px;
+                        height: 18.59px;
+                        justify-content: center;
+                        flex-direction: column;
+                      }
+                    }
+                  }
+                }
+                &__cell24 {
+                  width: min-content;
+                  align-self: stretch;
+                  align-items: center;
+                  padding: 29.07px 18.9px 30.05px 18.91px;
+                  box-shadow: inset 0px -1px 0px #e0e0e0;
+                  &__heading610 {
+                    width: min-content;
+                    height: min-content;
+                    flex-direction: column;
+                    &___73120243 {
+                      color: #000000de;
+                      font-size: 12.5px;
+                      line-height: 19.63px;
+                      font-weight: 500;
+                      font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                        'Noto Sans', 'Liberation Sans', sans-serif;
+                      width: min-content;
+                      height: min-content;
+                      white-space: nowrap;
+                      flex-direction: column;
+                    }
+                  }
+                }
+                &__cell25 {
+                  width: min-content;
+                  align-self: stretch;
+                  justify-content: center;
+                  align-items: center;
+                  padding: 18.88px 10px 19.87px;
+                  box-shadow: inset 0px -1px 0px #e0e0e0;
+                  &__button13 {
+                    width: min-content;
+                    height: min-content;
+                    padding: 8px;
+                    border-radius: 20px;
+                    &__sVG13 {
+                      width: 24px;
+                      height: 24px;
+                      overflow: visible;
+                      &__icon13 {
+                        width: 100%;
+                        height: 100%;
+                      }
+                    }
+                  }
+                  &__button14 {
+                    width: min-content;
+                    height: min-content;
+                    padding: 8px;
+                    border-radius: 20px;
+                    &__sVG14 {
+                      width: 24px;
+                      height: 24px;
+                      overflow: visible;
+                      &__icon14 {
+                        width: 100%;
+                        height: 100%;
+                      }
+                    }
+                  }
+                }
+              }
+              &__row7 {
+                width: min-content;
+                height: min-content;
+                &__cell26 {
+                  width: min-content;
+                  align-self: stretch;
+                  align-items: center;
+                  padding: 0 10px 1px;
+                  box-shadow: inset 0px -1px 0px #e0e0e0;
+                  &__container49 {
+                    width: min-content;
+                    height: min-content;
+                    flex-direction: column;
+                    padding: 15.06px 8px 16px;
+                    &__container50 {
+                      height: min-content;
+                      align-self: stretch;
+                      flex-direction: column;
+                      align-items: flex-start;
+                      padding: 0 0 0.93px;
+                      &__whichLanguagesCanYouTalkInMult {
+                        width: min-content;
+                        height: min-content;
+                        white-space: nowrap;
+                        flex-direction: column;
+                        &__textBlock9 {
+                          color: #000000de;
+                          font-size: 16px;
+                          line-height: 22.88px;
+                          font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                            'Noto Sans', 'Liberation Sans', sans-serif;
+                        }
+                        &__textBlock10 {
+                          margin-top: 0;
+                          color: #000000de;
+                          font-size: 16px;
+                          line-height: 22.88px;
+                          font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                            'Noto Sans', 'Liberation Sans', sans-serif;
+                        }
+                      }
+                    }
+                  }
+                }
+                &__cell27 {
+                  width: min-content;
+                  align-self: stretch;
+                  align-items: center;
+                  padding: 29.07px 42.69px 30.05px 42.67px;
+                  box-shadow: inset 0px -1px 0px #e0e0e0;
+                  &__heading611 {
+                    width: min-content;
+                    height: min-content;
+                    flex-direction: column;
+                    &__unnamed6 {
+                      color: #000000de;
+                      font-size: 12.5px;
+                      line-height: 19.63px;
+                      font-weight: 500;
+                      font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                        'Noto Sans', 'Liberation Sans', sans-serif;
+                      width: min-content;
+                      height: min-content;
+                      white-space: nowrap;
+                      flex-direction: column;
+                    }
+                  }
+                }
+                &__cell28 {
+                  width: min-content;
+                  align-self: stretch;
+                  align-items: center;
+                  padding: 26.88px 27.6px 27.87px 27.59px;
+                  box-shadow: inset 0px -1px 0px #e0e0e0;
+                  &__border6 {
+                    width: min-content;
+                    height: 24px;
+                    align-items: center;
+                    padding: 2.7px 1px 2.72px;
+                    outline: solid 1px #2872fab2;
+                    outline-offset: -1px;
+                    border-radius: 16px;
+                    &__container51 {
+                      z-index: 0;
+                      position: relative;
+                      width: 42.81px;
+                      height: 18.58px;
+                      flex-direction: column;
+                      align-items: flex-start;
+                      overflow: hidden;
+                      &__tEXT6 {
+                        color: #2872fa;
+                        font-size: 13px;
+                        line-height: 18.59px;
+                        font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                          'Noto Sans', 'Liberation Sans', sans-serif;
+                        position: absolute;
+                        left: 7px;
+                        top: -0.795px;
+                        width: 29.1838px;
+                        height: 18.59px;
+                        justify-content: center;
+                        flex-direction: column;
+                      }
+                    }
+                  }
+                }
+                &__cell29 {
+                  width: min-content;
+                  align-self: stretch;
+                  align-items: center;
+                  padding: 29.07px 18.7px 30.05px 18.69px;
+                  box-shadow: inset 0px -1px 0px #e0e0e0;
+                  &__heading612 {
+                    width: min-content;
+                    height: min-content;
+                    flex-direction: column;
+                    &___3132024 {
+                      color: #000000de;
+                      font-size: 12.5px;
+                      line-height: 19.63px;
+                      font-weight: 500;
+                      font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                        'Noto Sans', 'Liberation Sans', sans-serif;
+                      width: min-content;
+                      height: min-content;
+                      white-space: nowrap;
+                      flex-direction: column;
+                    }
+                  }
+                }
+                &__cell30 {
+                  width: min-content;
+                  align-self: stretch;
+                  justify-content: center;
+                  align-items: center;
+                  padding: 18.88px 10px 19.87px;
+                  box-shadow: inset 0px -1px 0px #e0e0e0;
+                  &__button15 {
+                    width: min-content;
+                    height: min-content;
+                    padding: 8px;
+                    border-radius: 20px;
+                    &__sVG15 {
+                      width: 24px;
+                      height: 24px;
+                      overflow: visible;
+                      &__icon15 {
+                        width: 100%;
+                        height: 100%;
+                      }
+                    }
+                  }
+                  &__button16 {
+                    width: min-content;
+                    height: min-content;
+                    padding: 8px;
+                    border-radius: 20px;
+                    &__sVG16 {
+                      width: 24px;
+                      height: 24px;
+                      overflow: visible;
+                      &__icon16 {
+                        width: 100%;
+                        height: 100%;
+                      }
+                    }
+                  }
+                }
+              }
+              &__row8 {
+                width: min-content;
+                height: min-content;
+                &__cell31 {
+                  width: min-content;
+                  align-self: stretch;
+                  align-items: center;
+                  padding: 0 248.17px 1px 10px;
+                  box-shadow: inset 0px -1px 0px #e0e0e0;
+                  &__container52 {
+                    width: min-content;
+                    height: min-content;
+                    flex-direction: column;
+                    padding: 15.06px 8px 16px;
+                    &__container53 {
+                      height: min-content;
+                      align-self: stretch;
+                      flex-direction: column;
+                      align-items: flex-start;
+                      padding: 0 0 0.94px;
+                      &__whoAreYouMyNameIsBechIAmAnAICh {
+                        color: #000000de;
+                        font-size: 16px;
+                        line-height: 22.88px;
+                        font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                          'Noto Sans', 'Liberation Sans', sans-serif;
+                        width: min-content;
+                        height: min-content;
+                        white-space: nowrap;
+                        flex-direction: column;
+                      }
+                    }
+                  }
+                }
+                &__cell32 {
+                  width: min-content;
+                  align-self: stretch;
+                  align-items: center;
+                  padding: 17.63px 42.69px 18.62px 42.67px;
+                  box-shadow: inset 0px -1px 0px #e0e0e0;
+                  &__heading613 {
+                    width: min-content;
+                    height: min-content;
+                    flex-direction: column;
+                    &__unnamed7 {
+                      color: #000000de;
+                      font-size: 12.5px;
+                      line-height: 19.63px;
+                      font-weight: 500;
+                      font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                        'Noto Sans', 'Liberation Sans', sans-serif;
+                      width: min-content;
+                      height: min-content;
+                      white-space: nowrap;
+                      flex-direction: column;
+                    }
+                  }
+                }
+                &__cell33 {
+                  width: min-content;
+                  align-self: stretch;
+                  align-items: center;
+                  padding: 15.44px 27.6px 16.44px 27.59px;
+                  box-shadow: inset 0px -1px 0px #e0e0e0;
+                  &__border7 {
+                    width: min-content;
+                    height: 24px;
+                    align-items: center;
+                    padding: 2.7px 1px 2.72px;
+                    outline: solid 1px #2872fab2;
+                    outline-offset: -1px;
+                    border-radius: 16px;
+                    &__container54 {
+                      z-index: 0;
+                      position: relative;
+                      width: 42.81px;
+                      height: 18.58px;
+                      flex-direction: column;
+                      align-items: flex-start;
+                      overflow: hidden;
+                      &__tEXT7 {
+                        color: #2872fa;
+                        font-size: 13px;
+                        line-height: 18.59px;
+                        font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                          'Noto Sans', 'Liberation Sans', sans-serif;
+                        position: absolute;
+                        left: 7px;
+                        top: -0.795px;
+                        width: 29.1838px;
+                        height: 18.59px;
+                        justify-content: center;
+                        flex-direction: column;
+                      }
+                    }
+                  }
+                }
+                &__cell34 {
+                  width: min-content;
+                  align-self: stretch;
+                  align-items: center;
+                  padding: 17.63px 18.7px 18.62px 18.69px;
+                  box-shadow: inset 0px -1px 0px #e0e0e0;
+                  &__heading614 {
+                    width: min-content;
+                    height: min-content;
+                    flex-direction: column;
+                    &___31320242 {
+                      color: #000000de;
+                      font-size: 12.5px;
+                      line-height: 19.63px;
+                      font-weight: 500;
+                      font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                        'Noto Sans', 'Liberation Sans', sans-serif;
+                      width: min-content;
+                      height: min-content;
+                      white-space: nowrap;
+                      flex-direction: column;
+                    }
+                  }
+                }
+                &__cell35 {
+                  width: min-content;
+                  align-self: stretch;
+                  justify-content: center;
+                  align-items: center;
+                  padding: 7.44px 10px 8.44px;
+                  box-shadow: inset 0px -1px 0px #e0e0e0;
+                  &__button17 {
+                    width: min-content;
+                    height: min-content;
+                    padding: 8px;
+                    border-radius: 20px;
+                    &__sVG17 {
+                      width: 24px;
+                      height: 24px;
+                      overflow: visible;
+                      &__icon17 {
+                        width: 100%;
+                        height: 100%;
+                      }
+                    }
+                  }
+                  &__button18 {
+                    width: min-content;
+                    height: min-content;
+                    padding: 8px;
+                    border-radius: 20px;
+                    &__sVG18 {
+                      width: 24px;
+                      height: 24px;
+                      overflow: visible;
+                      &__icon18 {
+                        width: 100%;
+                        height: 100%;
+                      }
+                    }
+                  }
+                }
+              }
+              &__row9 {
+                width: min-content;
+                height: min-content;
+                &__cell36 {
+                  width: min-content;
+                  align-self: stretch;
+                  align-items: center;
+                  padding: 0 10px 1px;
+                  box-shadow: inset 0px -1px 0px #e0e0e0;
+                  &__container55 {
+                    width: min-content;
+                    height: min-content;
+                    flex-direction: column;
+                    padding: 15.055px 8px 16px;
+                    &__container56 {
+                      height: min-content;
+                      align-self: stretch;
+                      flex-direction: column;
+                      align-items: flex-start;
+                      padding: 0 0 0.935px;
+                      &__doYouHaveLiveChatSupportYesWeD {
+                        width: min-content;
+                        height: min-content;
+                        white-space: nowrap;
+                        flex-direction: column;
+                        &__textBlock11 {
+                          color: #000000de;
+                          font-size: 16px;
+                          line-height: 22.88px;
+                          font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                            'Noto Sans', 'Liberation Sans', sans-serif;
+                        }
+                        &__textBlock12 {
+                          margin-top: 0;
+                          color: #000000de;
+                          font-size: 16px;
+                          line-height: 22.88px;
+                          font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                            'Noto Sans', 'Liberation Sans', sans-serif;
+                        }
+                      }
+                    }
+                  }
+                }
+                &__cell37 {
+                  width: min-content;
+                  align-self: stretch;
+                  align-items: center;
+                  padding: 29.06px 42.69px 30.06px 42.67px;
+                  box-shadow: inset 0px -1px 0px #e0e0e0;
+                  &__heading615 {
+                    width: min-content;
+                    height: min-content;
+                    flex-direction: column;
+                    &__unnamed8 {
+                      color: #000000de;
+                      font-size: 12.5px;
+                      line-height: 19.63px;
+                      font-weight: 500;
+                      font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                        'Noto Sans', 'Liberation Sans', sans-serif;
+                      width: min-content;
+                      height: min-content;
+                      white-space: nowrap;
+                      flex-direction: column;
+                    }
+                  }
+                }
+                &__cell38 {
+                  width: min-content;
+                  align-self: stretch;
+                  align-items: center;
+                  padding: 26.87px 27.6px 27.88px 27.59px;
+                  box-shadow: inset 0px -1px 0px #e0e0e0;
+                  &__border8 {
+                    width: min-content;
+                    height: 24px;
+                    align-items: center;
+                    padding: 2.71px 1px;
+                    outline: solid 1px #2872fab2;
+                    outline-offset: -1px;
+                    border-radius: 16px;
+                    &__container57 {
+                      z-index: 0;
+                      position: relative;
+                      width: 42.81px;
+                      height: 18.58px;
+                      flex-direction: column;
+                      align-items: flex-start;
+                      overflow: hidden;
+                      &__tEXT8 {
+                        color: #2872fa;
+                        font-size: 13px;
+                        line-height: 18.59px;
+                        font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                          'Noto Sans', 'Liberation Sans', sans-serif;
+                        position: absolute;
+                        left: 7px;
+                        top: -0.795px;
+                        width: 29.1838px;
+                        height: 18.59px;
+                        justify-content: center;
+                        flex-direction: column;
+                      }
+                    }
+                  }
+                }
+                &__cell39 {
+                  width: min-content;
+                  align-self: stretch;
+                  align-items: center;
+                  padding: 29.06px 18.9px 30.06px 18.91px;
+                  box-shadow: inset 0px -1px 0px #e0e0e0;
+                  &__heading616 {
+                    width: min-content;
+                    height: min-content;
+                    flex-direction: column;
+                    &___73120244 {
+                      color: #000000de;
+                      font-size: 12.5px;
+                      line-height: 19.63px;
+                      font-weight: 500;
+                      font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                        'Noto Sans', 'Liberation Sans', sans-serif;
+                      width: min-content;
+                      height: min-content;
+                      white-space: nowrap;
+                      flex-direction: column;
+                    }
+                  }
+                }
+                &__cell40 {
+                  width: min-content;
+                  align-self: stretch;
+                  justify-content: center;
+                  align-items: center;
+                  padding: 18.87px 10px 19.88px;
+                  box-shadow: inset 0px -1px 0px #e0e0e0;
+                  &__button19 {
+                    width: min-content;
+                    height: min-content;
+                    padding: 8px;
+                    border-radius: 20px;
+                    &__sVG19 {
+                      width: 24px;
+                      height: 24px;
+                      overflow: visible;
+                      &__icon19 {
+                        width: 100%;
+                        height: 100%;
+                      }
+                    }
+                  }
+                  &__button20 {
+                    width: min-content;
+                    height: min-content;
+                    padding: 8px;
+                    border-radius: 20px;
+                    &__sVG20 {
+                      width: 24px;
+                      height: 24px;
+                      overflow: visible;
+                      &__icon20 {
+                        width: 100%;
+                        height: 100%;
+                      }
+                    }
+                  }
+                }
+              }
+              &__row10 {
+                width: min-content;
+                height: min-content;
+                &__cell41 {
+                  width: min-content;
+                  align-self: stretch;
+                  align-items: center;
+                  padding: 0 760.94px 1px 10px;
+                  box-shadow: inset 0px -1px 0px #e0e0e0;
+                  &__container58 {
+                    width: min-content;
+                    height: min-content;
+                    flex-direction: column;
+                    padding: 15.06px 8px 16px;
+                    &__container59 {
+                      height: min-content;
+                      align-self: stretch;
+                      flex-direction: column;
+                      align-items: flex-start;
+                      padding: 0 0 0.94px;
+                      &__iWantToFreezeMyEggsThatSGreatP {
+                        color: #000000de;
+                        font-size: 16px;
+                        line-height: 22.88px;
+                        font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                          'Noto Sans', 'Liberation Sans', sans-serif;
+                        width: min-content;
+                        height: min-content;
+                        white-space: nowrap;
+                        flex-direction: column;
+                      }
+                    }
+                  }
+                }
+                &__cell42 {
+                  width: min-content;
+                  align-self: stretch;
+                  align-items: center;
+                  padding: 17.62px 42.69px 18.63px 42.67px;
+                  box-shadow: inset 0px -1px 0px #e0e0e0;
+                  &__heading617 {
+                    width: min-content;
+                    height: min-content;
+                    flex-direction: column;
+                    &__unnamed9 {
+                      color: #000000de;
+                      font-size: 12.5px;
+                      line-height: 19.63px;
+                      font-weight: 500;
+                      font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                        'Noto Sans', 'Liberation Sans', sans-serif;
+                      width: min-content;
+                      height: min-content;
+                      white-space: nowrap;
+                      flex-direction: column;
+                    }
+                  }
+                }
+                &__cell43 {
+                  width: min-content;
+                  align-self: stretch;
+                  align-items: center;
+                  padding: 15.44px 27.6px 16.44px 27.59px;
+                  box-shadow: inset 0px -1px 0px #e0e0e0;
+                  &__border9 {
+                    width: min-content;
+                    height: 24px;
+                    align-items: center;
+                    padding: 2.7px 1px 2.72px;
+                    outline: solid 1px #2872fab2;
+                    outline-offset: -1px;
+                    border-radius: 16px;
+                    &__container60 {
+                      z-index: 0;
+                      position: relative;
+                      width: 42.81px;
+                      height: 18.58px;
+                      flex-direction: column;
+                      align-items: flex-start;
+                      overflow: hidden;
+                      &__tEXT9 {
+                        color: #2872fa;
+                        font-size: 13px;
+                        line-height: 18.59px;
+                        font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                          'Noto Sans', 'Liberation Sans', sans-serif;
+                        position: absolute;
+                        left: 7px;
+                        top: -0.795px;
+                        width: 29.1838px;
+                        height: 18.59px;
+                        justify-content: center;
+                        flex-direction: column;
+                      }
+                    }
+                  }
+                }
+                &__cell44 {
+                  width: min-content;
+                  align-self: stretch;
+                  align-items: center;
+                  padding: 17.62px 18.09px 18.63px 18.08px;
+                  box-shadow: inset 0px -1px 0px #e0e0e0;
+                  &__heading618 {
+                    width: min-content;
+                    height: min-content;
+                    flex-direction: column;
+                    &___8142024 {
+                      color: #000000de;
+                      font-size: 12.5px;
+                      line-height: 19.63px;
+                      font-weight: 500;
+                      font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                        'Noto Sans', 'Liberation Sans', sans-serif;
+                      width: min-content;
+                      height: min-content;
+                      white-space: nowrap;
+                      flex-direction: column;
+                    }
+                  }
+                }
+                &__cell45 {
+                  width: min-content;
+                  align-self: stretch;
+                  justify-content: center;
+                  align-items: center;
+                  padding: 7.44px 10px 8.44px;
+                  box-shadow: inset 0px -1px 0px #e0e0e0;
+                  &__button21 {
+                    width: min-content;
+                    height: min-content;
+                    padding: 8px;
+                    border-radius: 20px;
+                    &__sVG21 {
+                      width: 24px;
+                      height: 24px;
+                      overflow: visible;
+                      &__icon21 {
+                        width: 100%;
+                        height: 100%;
+                      }
+                    }
+                  }
+                  &__button22 {
+                    width: min-content;
+                    height: min-content;
+                    padding: 8px;
+                    border-radius: 20px;
+                    &__sVG22 {
+                      width: 24px;
+                      height: 24px;
+                      overflow: visible;
+                      &__icon22 {
+                        width: 100%;
+                        height: 100%;
+                      }
+                    }
+                  }
+                }
+              }
+              &__row11 {
+                width: min-content;
+                height: min-content;
+                &__cell46 {
+                  width: min-content;
+                  align-self: stretch;
+                  align-items: center;
+                  padding: 0 71.17px 1px 10px;
+                  &__container61 {
+                    width: min-content;
+                    height: min-content;
+                    flex-direction: column;
+                    padding: 15.06px 8px 16px;
+                    &__container62 {
+                      height: min-content;
+                      align-self: stretch;
+                      flex-direction: column;
+                      align-items: flex-start;
+                      padding: 0 0 0.94px;
+                      &__iAmTryingToGetPregnantWeHaveHe {
+                        color: #000000de;
+                        font-size: 16px;
+                        line-height: 22.88px;
+                        font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                          'Noto Sans', 'Liberation Sans', sans-serif;
+                        width: min-content;
+                        height: min-content;
+                        white-space: nowrap;
+                        flex-direction: column;
+                      }
+                    }
+                  }
+                }
+                &__cell47 {
+                  width: min-content;
+                  align-self: stretch;
+                  align-items: center;
+                  padding: 17.63px 42.69px 18.62px 42.67px;
+                  &__heading619 {
+                    width: min-content;
+                    height: min-content;
+                    flex-direction: column;
+                    &__unnamed10 {
+                      color: #000000de;
+                      font-size: 12.5px;
+                      line-height: 19.63px;
+                      font-weight: 500;
+                      font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                        'Noto Sans', 'Liberation Sans', sans-serif;
+                      width: min-content;
+                      height: min-content;
+                      white-space: nowrap;
+                      flex-direction: column;
+                    }
+                  }
+                }
+                &__cell48 {
+                  width: min-content;
+                  align-self: stretch;
+                  align-items: center;
+                  padding: 15.44px 27.6px 16.44px 27.59px;
+                  &__border10 {
+                    width: min-content;
+                    height: 24px;
+                    align-items: center;
+                    padding: 2.7px 1px 2.72px;
+                    outline: solid 1px #2872fab2;
+                    outline-offset: -1px;
+                    border-radius: 16px;
+                    &__container63 {
+                      z-index: 0;
+                      position: relative;
+                      width: 42.81px;
+                      height: 18.58px;
+                      flex-direction: column;
+                      align-items: flex-start;
+                      overflow: hidden;
+                      &__tEXT10 {
+                        color: #2872fa;
+                        font-size: 13px;
+                        line-height: 18.59px;
+                        font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                          'Noto Sans', 'Liberation Sans', sans-serif;
+                        position: absolute;
+                        left: 7px;
+                        top: -0.795px;
+                        width: 29.1838px;
+                        height: 18.59px;
+                        justify-content: center;
+                        flex-direction: column;
+                      }
+                    }
+                  }
+                }
+                &__cell49 {
+                  width: min-content;
+                  align-self: stretch;
+                  align-items: center;
+                  padding: 17.63px 18.09px 18.62px 18.08px;
+                  &__heading620 {
+                    width: min-content;
+                    height: min-content;
+                    flex-direction: column;
+                    &___81420242 {
+                      color: #000000de;
+                      font-size: 12.5px;
+                      line-height: 19.63px;
+                      font-weight: 500;
+                      font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                        'Noto Sans', 'Liberation Sans', sans-serif;
+                      width: min-content;
+                      height: min-content;
+                      white-space: nowrap;
+                      flex-direction: column;
+                    }
+                  }
+                }
+                &__cell50 {
+                  width: min-content;
+                  align-self: stretch;
+                  justify-content: center;
+                  align-items: center;
+                  padding: 7.44px 10px 8.44px;
+                  &__button23 {
+                    width: min-content;
+                    height: min-content;
+                    padding: 8px;
+                    border-radius: 20px;
+                    &__sVG23 {
+                      width: 24px;
+                      height: 24px;
+                      overflow: visible;
+                      &__icon23 {
+                        width: 100%;
+                        height: 100%;
+                      }
+                    }
+                  }
+                  &__button24 {
+                    width: min-content;
+                    height: min-content;
+                    padding: 8px;
+                    border-radius: 20px;
+                    &__sVG24 {
+                      width: 24px;
+                      height: 24px;
+                      overflow: visible;
+                      &__icon24 {
+                        width: 100%;
+                        height: 100%;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      &__container64 {
+        height: min-content;
+        align-self: stretch;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 804px;
+        &__navPaginationNavigation {
+          width: min-content;
+          height: min-content;
+          flex-direction: column;
+          &__list {
+            height: min-content;
+            align-self: stretch;
+            flex-wrap: wrap;
+            align-items: center;
+            align-content: center;
+            &__item {
+              width: min-content;
+              height: min-content;
+              flex-direction: column;
+              padding: 0 3px;
+              &__linkGoToPreviousPage {
+                opacity: 0.38;
+                width: min-content;
+                height: min-content;
+                align-self: flex-start;
+                padding: 6px;
+                border-radius: 16px;
+                &__sVG25 {
+                  width: 20px;
+                  height: 20px;
+                  overflow: visible;
+                  &__icon25 {
+                    width: 100%;
+                    height: 100%;
+                  }
+                }
+              }
+            }
+            &__item2 {
+              width: min-content;
+              height: min-content;
+              flex-direction: column;
+              padding: 0 3px;
+              &__linkPage1 {
+                width: min-content;
+                height: min-content;
+                align-self: flex-start;
+                padding: 3.62px 13.43px 5.5px 13.44px;
+                border-radius: 16px;
+                background-color: #2872fa;
+                &___1 {
+                  color: #fff;
+                  font-size: 16px;
+                  line-height: 22.88px;
+                  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                    'Noto Sans', 'Liberation Sans', sans-serif;
+                  width: min-content;
+                  height: min-content;
+                  text-align: center;
+                  align-items: center;
+                  white-space: nowrap;
+                  flex-direction: column;
+                }
+              }
+            }
+            &__item3 {
+              width: min-content;
+              height: min-content;
+              flex-direction: column;
+              padding: 0 3px;
+              &__linkGoToPage2 {
+                width: min-content;
+                height: min-content;
+                align-self: flex-start;
+                padding: 3.62px 11.41px 5.5px 11.39px;
+                border-radius: 16px;
+                &___2 {
+                  color: #000000de;
+                  font-size: 16px;
+                  line-height: 22.88px;
+                  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                    'Noto Sans', 'Liberation Sans', sans-serif;
+                  width: min-content;
+                  height: min-content;
+                  text-align: center;
+                  align-items: center;
+                  white-space: nowrap;
+                  flex-direction: column;
+                }
+              }
+            }
+            &__item4 {
+              width: min-content;
+              height: min-content;
+              flex-direction: column;
+              padding: 0 3px;
+              &__linkGoToPage3 {
+                width: min-content;
+                height: min-content;
+                align-self: flex-start;
+                padding: 3.62px 11.28px 5.5px;
+                border-radius: 16px;
+                &___32 {
+                  color: #000000de;
+                  font-size: 16px;
+                  line-height: 22.88px;
+                  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                    'Noto Sans', 'Liberation Sans', sans-serif;
+                  width: min-content;
+                  height: min-content;
+                  text-align: center;
+                  align-items: center;
+                  white-space: nowrap;
+                  flex-direction: column;
+                }
+              }
+            }
+            &__item5 {
+              width: min-content;
+              height: min-content;
+              flex-direction: column;
+              padding: 0 3px;
+              &__linkGoToPage4 {
+                width: min-content;
+                height: min-content;
+                align-self: flex-start;
+                padding: 3.62px 10.97px 5.5px 10.95px;
+                border-radius: 16px;
+                &___4 {
+                  color: #000000de;
+                  font-size: 16px;
+                  line-height: 22.88px;
+                  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                    'Noto Sans', 'Liberation Sans', sans-serif;
+                  width: min-content;
+                  height: min-content;
+                  text-align: center;
+                  align-items: center;
+                  white-space: nowrap;
+                  flex-direction: column;
+                }
+              }
+            }
+            &__item6 {
+              width: min-content;
+              height: min-content;
+              flex-direction: column;
+              padding: 0 3px;
+              &__linkGoToNextPage {
+                width: min-content;
+                height: min-content;
+                align-self: flex-start;
+                padding: 6px;
+                border-radius: 16px;
+                &__sVG26 {
+                  width: 20px;
+                  height: 20px;
+                  overflow: visible;
+                  &__icon26 {
+                    width: 100%;
+                    height: 100%;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.header {
+  position: absolute;
+  left: 64px;
+  top: 0;
+  width: 1856px;
+  height: 65px;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: inset 0px -1px 0px #0003, 0px 0px 10px 1px #0003;
+  &__container65 {
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    top: -1.62px;
+    height: min-content;
+    justify-content: space-between;
+    align-items: center;
+    gap: 962.05px;
+    &__container66 {
+      width: min-content;
+      height: min-content;
+      flex-direction: column;
+      &__heading3 {
+        height: min-content;
+        align-self: stretch;
+        overflow: hidden;
+        &__chatbotMindMap {
+          color: #000;
+          font-size: 24px;
+          line-height: 28px;
+          font-weight: 500;
+          font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+            'Liberation Sans', sans-serif;
+          width: min-content;
+          height: min-content;
+          white-space: nowrap;
+          flex-direction: column;
+        }
+      }
+      &__heading621 {
+        height: min-content;
+        align-self: stretch;
+        flex-direction: column;
+        align-items: flex-start;
+        &__thisIsTheBrainAndTheMemoryOfTh {
+          width: min-content;
+          height: min-content;
+          white-space: nowrap;
+          flex-direction: column;
+          &__textBlock13 {
+            color: #000;
+            font-size: 12.5px;
+            line-height: 19.63px;
+            font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+              'Liberation Sans', sans-serif;
+          }
+          &__textBlock14 {
+            margin-top: 0;
+            color: #000;
+            font-size: 12.5px;
+            line-height: 19.63px;
+            font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+              'Liberation Sans', sans-serif;
+          }
+        }
+      }
+    }
+    &__container67 {
+      width: min-content;
+      height: min-content;
+      align-items: flex-start;
+      gap: 16px;
+      &__button25 {
+        width: min-content;
+        height: min-content;
+        padding: 7.2px 16px 7.21px;
+        outline: solid 1px #2872fa80;
+        outline-offset: -1px;
+        border-radius: 4px;
+        &__heading622 {
+          z-index: 0;
+          width: min-content;
+          height: min-content;
+          align-self: flex-start;
+          flex-direction: column;
+          &__guidedTour {
+            color: #2872fa;
+            font-size: 16px;
+            line-height: 25.6px;
+            font-weight: 500;
+            font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+              'Liberation Sans', sans-serif;
+            text-transform: uppercase;
+            width: min-content;
+            height: min-content;
+            text-align: center;
+            align-items: center;
+            white-space: nowrap;
+            flex-direction: column;
+          }
+        }
+      }
+      &__buttonViewOrgs {
+        width: min-content;
+        height: min-content;
+        justify-content: center;
+        align-items: center;
+        padding: 8px 4px 8px 8px;
+        border-radius: 8px;
+        &__container68 {
+          width: min-content;
+          height: min-content;
+          flex-direction: column;
+          &__selectOrg {
+            color: #1d1d1d;
+            font-size: 18px;
+            line-height: 24px;
+            font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+              'Liberation Sans', sans-serif;
+            text-transform: uppercase;
+            width: min-content;
+            height: min-content;
+            text-align: center;
+            align-items: center;
+            white-space: nowrap;
+            flex-direction: column;
+          }
+        }
+        &__margin7 {
+          width: min-content;
+          height: min-content;
+          flex-direction: column;
+          padding: 0 0 0 8px;
+          margin: 0px 0px 0px -9.947598300641403e-14px;
+          &__sVG27 {
+            width: 20px;
+            height: 20px;
+            overflow: visible;
+            &__icon27 {
+              width: 100%;
+              height: 100%;
+            }
+          }
+        }
+      }
+      &__buttonOpenMenu {
+        width: min-content;
+        height: min-content;
+        border-radius: 20px;
+        &__overlayShadow {
+          width: 40px;
+          height: 40px;
+          align-items: center;
+          border-radius: 20px;
+          background-color: #ffffff01;
+          overflow: hidden;
+          box-shadow: 0px 0px 0px 2px #2872fa;
+          &__svg {
+            position: relative;
+            height: 40px;
+            flex: 1;
+            flex-direction: column;
+            align-items: flex-start;
+            overflow: hidden;
+            &__svgFill {
+              position: absolute;
+              left: 0;
+              top: 0;
+              width: 40px;
+              height: 40px;
+              flex-direction: column;
+              align-items: flex-start;
+              overflow: hidden;
+              &__svg2 {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                width: 40px;
+                height: 40px;
+                transform: translate(-50%, -50%);
+                &__icon28 {
+                  width: 100%;
+                  height: 100%;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.backgroundVerticalBorder {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 65px;
+  height: 1200px;
+  flex-direction: column;
+  padding: 0 1px 0 0;
+  background-color: #fff;
+  overflow-y: auto;
+  overflow-x: hidden;
+  box-shadow: inset -1px 0px 0px #0000001f;
+  &__openLeftDrawer {
+    height: min-content;
+    align-self: stretch;
+    justify-content: flex-end;
+    padding: 12px 8px;
+    &__button26 {
+      width: min-content;
+      height: min-content;
+      align-self: flex-start;
+      padding: 8px;
+      border-radius: 20px;
+      &__sVG28 {
+        width: 24px;
+        height: 24px;
+        overflow: visible;
+        &__icon29 {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+  &__separator2 {
+    position: relative;
+    max-width: 100%;
+    height: 1px;
+    max-height: 100%;
+    align-self: stretch;
+    flex-direction: column;
+    border-bottom: solid 1px #0000001f;
+    overflow: hidden;
+  }
+  &__list2 {
+    height: min-content;
+    align-self: stretch;
+    flex-direction: column;
+    padding: 8px 0;
+    &__itemExploreChatsButton {
+      height: min-content;
+      align-self: stretch;
+      justify-content: center;
+      padding: 13.5px 20px;
+      &__container69 {
+        width: min-content;
+        height: min-content;
+        align-self: flex-start;
+        &__sVG29 {
+          width: 24px;
+          height: 24px;
+          overflow: visible;
+          &__icon30 {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+    &__itemBusinessLeadsButton {
+      height: min-content;
+      align-self: stretch;
+      justify-content: center;
+      padding: 13.5px 20px;
+      &__container70 {
+        width: min-content;
+        height: min-content;
+        align-self: flex-start;
+        &__sVG30 {
+          width: 24px;
+          height: 24px;
+          overflow: visible;
+          &__icon31 {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+    &__itemViewMindMap {
+      height: min-content;
+      align-self: stretch;
+      flex-direction: column;
+      background-color: #e3f2ff;
+      &__button27 {
+        height: min-content;
+        align-self: stretch;
+        justify-content: center;
+        padding: 13.5px 20px;
+        &__container71 {
+          width: min-content;
+          height: min-content;
+          align-self: flex-start;
+          &__sVG31 {
+            width: 24px;
+            height: 24px;
+            overflow: visible;
+            &__icon32 {
+              width: 100%;
+              height: 100%;
+            }
+          }
+        }
+      }
+    }
+    &__itemManageTeamButton {
+      height: min-content;
+      align-self: stretch;
+      justify-content: center;
+      padding: 13.5px 20px;
+      &__container72 {
+        width: min-content;
+        height: min-content;
+        align-self: flex-start;
+        &__sVG32 {
+          width: 24px;
+          height: 24px;
+          overflow: visible;
+          &__icon33 {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+    &__itemConfigureChatbotButton {
+      height: min-content;
+      align-self: stretch;
+      justify-content: center;
+      padding: 13.5px 20px;
+      &__container73 {
+        width: min-content;
+        height: min-content;
+        align-self: flex-start;
+        &__sVG33 {
+          width: 24px;
+          height: 24px;
+          overflow: visible;
+          &__icon34 {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+}
